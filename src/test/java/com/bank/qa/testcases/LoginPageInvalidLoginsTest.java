@@ -27,7 +27,8 @@ public class LoginPageInvalidLoginsTest extends TestBase{
 	@BeforeMethod
 	public void setup()
 	{
-		initialization();
+		initializeBrowserRemote();
+		//initialization();
 		loginPage = new LoginPage();
 		testUtils = new TestUtils();
 	}

@@ -28,8 +28,8 @@ public class HomePageTest extends TestBase{
 	@BeforeMethod
 	public void setup()
 	{
-		//initializeBrowserRemote();
-		initialization();
+		initializeBrowserRemote();
+		//initialization();
 	}
 	
 	@Test(priority = 1)

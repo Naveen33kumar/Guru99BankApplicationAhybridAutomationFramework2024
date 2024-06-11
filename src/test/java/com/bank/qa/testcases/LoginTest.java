@@ -24,8 +24,8 @@ public class LoginTest extends TestBase{
 	@BeforeMethod
 	public void setup()
 	{
-		initializeBrowserRemote();
-		//initialization();
+		//initializeBrowserRemote();
+		initialization();
 		loginPage = new LoginPage();
 	}
 	

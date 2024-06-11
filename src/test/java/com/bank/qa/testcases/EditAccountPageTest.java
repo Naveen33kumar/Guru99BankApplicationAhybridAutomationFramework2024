@@ -28,8 +28,8 @@ public class EditAccountPageTest extends TestBase{
 	@BeforeMethod
 	public void setUp()
 	{
-		initializeBrowserRemote();
-		//initialization();
+		//initializeBrowserRemote();
+		initialization();
 	}
 
 	@Test(priority = 1)
